@@ -1,0 +1,12 @@
+GET / HTTP/1.1
+Host: 127.0.0.1:3000
+
+###
+
+GET /stats HTTP/1.1
+Host: 127.0.0.1:3001 
+
+###
+
+POST /comments HTTP/1.1
+Host: 127.0.0.1:3000
